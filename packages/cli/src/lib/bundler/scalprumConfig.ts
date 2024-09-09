@@ -50,6 +50,10 @@ export const sharedModules = {
     singleton: true,
     requiredVersion: '*',
   },
+  '@backstage/theme': {
+    singleton: true,
+    requiredVersion: '*',
+  },
   '@scalprum/react-core': {
     singleton: true,
     requiredVersion: '*',
@@ -66,6 +70,22 @@ export const sharedModules = {
     requiredVersion: '*',
   },
   '@material-ui/styles': {
+    singleton: true,
+    requiredVersion: '*',
+  },
+  '@mui/material': {
+    singleton: true,
+    requiredVersion: '*',
+  },
+  '@mui/styled-engine': {
+    singleton: true,
+    requiredVersion: '*',
+  },
+  '@emotion/cache': {
+    singleton: true,
+    requiredVersion: '*',
+  },
+  '@emotion/react': {
     singleton: true,
     requiredVersion: '*',
   },
